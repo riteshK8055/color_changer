@@ -1,0 +1,50 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center; 
+    
+    transition:all 0.8s;
+}
+
+.button{
+
+    width: 40px;
+    height: 40px;
+    border: solid black;
+    border-radius: 20%;
+    margin: 4px;
+}
+
+.btn{
+
+   display: flex;
+}
+
+#grey{
+
+    background-color: grey;
+}
+
+#white{
+
+    background-color:whitesmoke;
+}
+
+#blue{
+    background-color: blue;
+
+}
+
+#yellow{
+
+    background-color: yellow;
+}
